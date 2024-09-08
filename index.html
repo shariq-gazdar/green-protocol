@@ -11,7 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <nav class="bg-green-500 border-gray-200 fixed w-full mb-24 z-10">
+    <nav class="bg-green-600 border-gray-200 fixed w-full mb-24 z-10">
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between p-6 mx-9"
       >
@@ -49,11 +49,11 @@
           </svg>
         </button>
         <div
-          class="bg-green-500 hidden w-full md:block md:w-auto"
+          class="bg-green-600 hidden w-full md:block md:w-auto"
           id="navbar-default"
         >
           <ul
-            class="bg-green-500 font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-green-500 text-white"
+            class="bg-green-600 font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 text-white"
           >
             <li>
               <a
@@ -157,6 +157,7 @@
         />
       </div>
     </section>
+
     <section id="solutions">
       <h1
         id="probHeading"
@@ -174,7 +175,7 @@
       >
         <div
           id="card1"
-          class="flex w-3/4 border-2 p-1 relative border-green-700"
+          class="flex w-3/4 border-[6px] p-1 relative border-green-700"
         >
           <img
             src="https://greenprotocol.netlify.app/static/media/15.4417e6cdc5650ff75447.png"
@@ -199,7 +200,7 @@
         </div>
         <div
           id="card1"
-          class="flex w-3/4 border-2 p-1 relative border-green-700"
+          class="flex w-3/4 border-[6px] p-1 relative border-green-700"
         >
           <img
             src="https://greenprotocol.netlify.app/static/media/15.4417e6cdc5650ff75447.png"
@@ -224,7 +225,7 @@
         </div>
         <div
           id="card1"
-          class="flex w-3/4 border-2 p-1 relative border-green-700"
+          class="flex w-3/4 border-[6px] p-1 relative border-green-700"
         >
           <img
             src="https://greenprotocol.netlify.app/static/media/15.4417e6cdc5650ff75447.png"
@@ -249,6 +250,66 @@
         </div>
       </div>
     </section>
+
+    <section id="business">
+      <h1
+        id="probHeading"
+        class="px-40 py-24 text-5xl font-black text-green-900"
+      >
+        Business Model:
+        <div id="greenBar" class="w-full h-1 bg-green-600 mt-5"></div>
+      </h1>
+      <div id="modelSection">
+        <h6 class="text-green-600 font-medium text-lg text-center">
+          Crowd-funding ownership of
+        </h6>
+        <div
+          class="flex imageSection justify-center flex-wrap mt-10 gap-x-28 w-[65rem]"
+        >
+          <div class="imageCard flex flex-col items-center">
+            <img
+              src="assets/businessModel/fruits.png"
+              class="rounded-full w-64"
+              alt=""
+            />
+            <p class="text-green-700 text-lg">Fruits and Vegetable Sale Out</p>
+          </div>
+          <div class="imageCard flex flex-col items-center">
+            <img
+              src="assets/businessModel/electricty.png"
+              class="rounded-full w-64"
+              alt=""
+            />
+            <p class="text-green-700 text-lg">Electrical Distribution Profit</p>
+          </div>
+          <div class="imageCard flex flex-col items-center">
+            <img
+              src="assets/businessModel/shopper.png"
+              class="rounded-full w-64"
+              alt=""
+            />
+            <p class="text-green-700 text-lg">Plastic Recycling</p>
+          </div>
+          <div class="imageCard flex flex-col items-center">
+            <img
+              src="assets/businessModel/cycle.png"
+              class="rounded-full w-64"
+              alt=""
+            />
+            <p class="text-green-700 text-lg">Electrical Mobility Rental</p>
+          </div>
+          <div class="imageCard flex flex-col items-center">
+            <img
+              src="assets/businessModel/spray.png"
+              class="rounded-full w-64"
+              alt=""
+            />
+            <p class="text-green-700 text-lg">Mosquito System</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
   </body>
 </html>
